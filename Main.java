@@ -108,13 +108,13 @@ public class Main {
             _Documents.flag_simple = true;
         }
 
-        Documentable ex1 = new Mail("Письмо на пожар", "10", "Георгев Ж.Ж.", "Мусоров В.В.");
+        Documentable ex1 = new Mail("Письмо об изменении цен", "10", "Георгев Ж.Ж.", "Мусоров В.В.");
         ex1.print();
         System.out.println(" ");
-        Documentable ex2 = new Order("Приказ на зачисления", "35", "Романов Д.В.", "Прошу зачислить меня в запас");
+        Documentable ex2 = new Order("Приказ на прием", "35", "Романов Д.В.", "Принят с 31/06/22");
         ex2.print();
         System.out.println(" ");
-        Documentable ex3 = new Order_delete("Приказ на выселение", "31", "Романов Д.В.", "Устроил побои", "Уничтожения частной собственности");
+        Documentable ex3 = new Order_delete("Приказ на увольнение", "31", "Романов Д.В.", "Уволен с 01/07/22", "Уничтожение частной собственности");
         ex3.print();
         System.out.println(" ");
 
